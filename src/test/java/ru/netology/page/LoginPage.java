@@ -6,7 +6,6 @@ import ru.netology.data.UserDataHelper;
 import static com.codeborne.selenide.Selenide.$;
 
 public class LoginPage {
-
     private SelenideElement loginField = $("[data-test-id='login'] input");
     private SelenideElement passwordField = $("[data-test-id='password'] input");
     private SelenideElement loginButton = $("[data-test-id='action-login']");

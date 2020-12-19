@@ -34,12 +34,12 @@ public class DashboardPage {
     }
 
     public MoneyTransferPage firstCardClick() {
-        cardList.first().click();
+        firstCardButton.click();
         return new MoneyTransferPage();
     }
 
     public MoneyTransferPage secondCardClick() {
-        cardList.last().click();
+        secondCardButton.click();
         return new MoneyTransferPage();
     }
 }
